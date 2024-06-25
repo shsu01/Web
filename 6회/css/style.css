@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.body{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+}
+
+.main li{
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+
+.main>li:hover>a{
+    color: white;
+    background-color: black;
+}
+
+.sub>li:hover>a{
+    color: white;
+    background-color: gray;
+}
+
+.sub li{
+    width: 200px;
+    height: 40px;
+}
+
+.sub{
+    display: none;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 3600px;
+    height: 300px;
+}
+
+.imglen li{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.imglen span{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content{
+    width: 1200px;
+    height: 200px;
+}
+
+.notice{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.link{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.logo1 img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.bottom1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.menu1{
+    width: 1000px;
+    height: 50px;
+    float: left;
+}
+
+.copy{
+    width: 1000px;
+    height: 50px;
+    float: left;
+}
