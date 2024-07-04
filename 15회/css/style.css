@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 970px;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 850px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.menu{
+    width: 200px;
+    height: 750px;
+    position: relative;
+}
+
+.bgmenu{
+    width: calc(100vw - 200px);
+    height: 160px;
+    background-color: rgba(255, 192, 203, 0.5);
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    z-index: 3;
+}
+
+.main li{
+    position: relative;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sub{
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    z-index: 3;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.main>li:hover>a{
+    color: white;
+    background-color: black;
+}
+
+.sub>li:hover>a{
+    color: white;
+}
+
+.body_right{
+    width: calc(100% - 200px);
+    height: 850px;
+    float: left;
+}
+
+.img_link{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.imgslide{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.imgslide li{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgslide img{
+    width: 100%;
+    height: 400px;
+}
+
+.link{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.link li{
+    margin: 0px 50px;
+}
+
+.content{
+    width: 100%;
+    height: 450px;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+}
+
+.nogal{
+    width: 100%;
+    height: 250px;
+}
+
+.bottom{
+    width: 100%;
+    height: 120px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 120px;
+    float: left;
+    position: relative;
+}
+
+.logo1 img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.bottom1{
+    width: calc(100% - 200px);
+    height: 120px;
+    float: left;
+}
+
+.menu1{
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.copy{
+    width: 100%;
+    height: 60px;
+    float: left;
+}
