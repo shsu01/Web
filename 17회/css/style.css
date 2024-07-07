@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.body_top{
+    width: 100%;
+    height: calc(100% - 120px);
+}
+
+.top{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.menu{
+    width: 200px;
+    height: calc(100% - 100px);
+    background-color: aliceblue;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: rgb(166, 223, 110);
+}
+
+.sub{
+    display: none;
+}
+
+.main>li:hover>a{
+    background-color: black;
+    color: white;
+}
+
+.sub>li:hover>a{
+    background-color: gray;
+    color: white;
+}
+
+.spot li:nth-child(1){
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.spot li:nth-child(2){
+    width: 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.spot li:nth-child(3){
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.content{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+.banner{
+    width: 400px;
+    height: calc(100% / 6);
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 80px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+
+.banner li:nth-child(1){
+    width: 100px;
+    height: 138px;
+    float: left;
+}
+.banner li:nth-child(2){
+    width: 200px;
+    height: 128px;
+    float: left;
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+}
+.banner li:nth-child(3){
+    width: 100px;
+    height: 138px;
+    float: left;
+}
+
+.notice{
+    width: 400px;
+    height: calc(100% / 3);
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+#tab{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: gray;
+}
+
+.notice li{
+    width: 390px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 8pt;
+    float: left;
+    margin: 5px;
+}
+
+.notice span{
+    float: right;
+}
+
+.gal{
+    width: 400px;
+    height: calc(100% / 3);
+    background-color: azure;
+    overflow: hidden;
+}
+
+#tab1{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: gray;
+}
+
+.gal li{
+    width: 150px;
+    height: 115px;
+    float: left;
+    margin: 60px 25px;
+}
+
+.link{
+    width: 400px;
+    height: calc(100% / 6);
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.link li{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 30px 10px;
+}
+
+.imgslide{
+    width: calc(100% - 200px - 400px);
+    height: 100%;
+    float: left;
+}
+
+.imgslide{
+    width: calc(100% - 600px);
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 300%;
+    height: 100%;
+}
+
+.imgslide li{
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.imgslide a{
+    width: 100%;
+    height: 100%;
+}
+
+.imglen img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgtxt{
+    width: 400px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.bottom{
+    width: 100%;
+    height: 120px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 120px;
+    background-color: beige;
+    float: left;
+    position: relative;
+}
+
+.logo1 img{
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+.bottom1{
+    width: calc(100% - 200px);
+    height: 120px;
+    float: left;
+}
+
+.menu1{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: blanchedalmond;
+}
+
+.menu1 li:nth-child(1){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(2){
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(3){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(4){
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(5){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(6){
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(7){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(8){
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(9){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(10){
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu1 li:nth-child(11){
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: burlywood;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.popup{
+    width: 600px;
+    height: 382px;
+    background-color: chartreuse;
+    display: none;
+    position: absolute;
+    left: 38%;
+    top: 25%;
+}
+
+.popup_title{
+    width: 600px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+}
+
+.popup_body{
+    width: 600px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+}
+
+button{
+    position: absolute;
+    left: 550px;
+    top: 347px;
+}
