@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    min-width: 1340px;
+    height: 1250px;
+    background-color: #fff;
+}
+
+.top{
+    width: 1340px;
+    height: 100px;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.logo1 a{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.menu{
+    width: 1040px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.bgmenu{
+    width: 100vw;
+    height: 160px;
+    background-color: rgba(240, 248, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 2;
+    display: none;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    z-index: 3;
+}
+
+.main li{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.sub li{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main>li:hover>a{
+    color: white;
+    background-color: black;
+}
+
+.sub>li:hover>a{
+    color: white;
+    background-color: gray;
+}
+
+.sub{
+    display: none;
+}
+
+.imgslide{
+    width: 100vw;
+    height: 350px;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 100%;
+    height: 1050px;
+}
+
+.imglen li{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.imglen img{
+    width: 100%;
+    height: 350px;
+}
+
+.imglen span{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(240, 248, 255, 0.5);
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20pt;
+}
+
+.content{
+    width: 1340px;
+    height: 450px;
+    position: relative;
+}
+
+.link{
+    width: 1340px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: -100px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.link li{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 0px 34px;
+}
+
+.banner{
+    width: 1340px;
+    height: 200px;
+}
+
+.banner li:nth-child(1){
+    float: left;
+    margin: 50px;
+}
+
+.banner li:nth-child(2){
+    float: left;
+    margin: 50px;
+}
+
+.banner li:nth-child(3){
+    float: right;
+    margin: 50px;
+}
+
+.nogal{
+    width: 1340px;
+    height: 250px;
+    position: relative;
+}
+
+#tab1{
+    width: 100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:rgba(240, 248, 255, 0.5) ;
+}
+
+.notice{
+    width: 670px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+.notice li{
+    width: 670px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid;
+}
+
+.notice span{
+    float: right;
+}
+
+#tab2{
+    width: 100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 670px;
+    top: 0;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.gal{
+    width: 670px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 670px;
+    top: 40px;
+}
+
+.gal li{
+    float: left;
+    margin: 50px 60px;
+}
+
+.bottom{
+    width: 1340px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.logo2 a{
+    position: absolute;
+    left: 0;
+    top: 23px;
+}
+
+.copy{
+    width: 890px;
+    height: 100px;
+    float: left;
+}
+
+.fa{
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+select{
+    width: 100px;
+    height: 40px;
+    margin: 30px 70px;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.popup{
+    width: 600px;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.5);
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 250px;
+}
+
+.popup_top{
+    width: 600px;
+    height: 50px;
+}
+
+.popup_body{
+    width: 600px;
+    height: 220px;
+}
+
+.popup_bottom{
+    width: 600px;
+    height: 30px;
+}
+
+button{
+    float: right;
+}
